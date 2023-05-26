@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+
+}
+.navbar{
+    background-color:rgba(44, 42, 42, 0.507);
+    width: auto;
+    height: 80px;
+}
+.header{
+    float: right;
+    margin: 35px;
+    word-spacing: 45px;
+    margin-right: 100px;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
