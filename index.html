@@ -8,50 +8,55 @@
     <title>My first webpage</title>
 </head>
 <body>
-    
-    <nav class="navbar">
-        <a href="#"> <img src="logo.jpg" alt="Loading Image" id="logo" title="Username"></a>
-        <div class="header">
-            <a href="index.html" id="home">Home</a>
-            <a href="#break" id="pictures" onclick-color="blue">Gallery</a>
-            <a href="#break1" id="videos">Recommendation</a>
-            <a href="" id="contact">Contact</a>
-            <a href="about.html" id="about">About</a>
-        </div><br>
-            <div class="sear">
-                <p ID="logo1">RJ WEBFIRST
-                <input type="text" id="search" placeholder="Search Here" ><a href="#"strong id="see">Search</strong></a></p>
-            </div>
-        </div>
-    </nav>
-
-
-        <div class="note">
-            <img src="image.jpg" alt="Loading" id="image">
-            <p id="first"><strong>Welcome</strong></p><br>
-            <p id="font">Hello, Good Day! My name is RJ Mangoba Carillas, the creator of this webpage.</p>
-            <p>This is my first webpage using<strong> HTML </strong>and <strong>CSS</strong>, I am a beginner in creating webpages.</p>
-            <p>Please support me and wish me luck. Arigathanksuu.</p><br>
-            <p id="creator"><strong>- RJ</strong></p>
-        </div><hr color="gray"id="break">
-
-        <div class="contain">
-            
-            <span class="text">
-            <p id="text"><br>Gallery</p>
-            <p>This pictures are just my random selected picture from my devices.</p>
-            </span>
-            <div class="gallery">
-                <div class="photos">
-                    <br><br><br><br>
-                    <img src="Manga.jpg" alt="" class="img">
-                    <img src="manwha.jpg" alt="" class="img">
-                    <img src="Julienne.jpeg" alt="" class="img">
-                    <img src="family.jpg" alt="" class="img">
+    <div class="container">
+        <nav class="navbar">
+            <a href="#"> <img src="logo.jpg" alt="Loading Image" id="logo" title="Username"></a>
+                <div class="header">
+                    <a class="active" href="index.html" id="home">Home</a>
+                    <a href="service.html" id="pictures">Service</a>
+                    <a href="contact.html" id="contact">Contact</a>
+                    <a href="about.html" id="about">About</a>
                 </div>
-            </div>
-            <hr id="bot">
-        </div>
+                <br>
+                <div class="sear">
+                <p ID="logo1">My Static Webpage <input type="text" id="search"  placeholder=" Type Your Search Here" ></p>
+                </div>
+                </div>
+        </nav>
+    </div>
+    <br>
+</body>
+<fieldset>
+    <legend id="login">Login</legend>
+    <p id="use">Input Username</p>
+    <input id="ty" type="text" name="username" required="" placeholder="Enter Username"><br><br>
+    <p id="use">Enter Password </p>
+    <input id="tp"type="password" name="password" required="" placeholder="Enter Password">
+    <br><br>
+    <p id="rem"><input  id="text"type="checkbox"  name="remember" value="Bike"> Remember me <a href="" id="for">Forget Password?</a></p>
+    <input id="submit"type="button" value="Submit">
+</fieldset>
+    <div class="content">
+        <h2>WELCOME EVERYONE!</h2>
+        <p id="web">This is the webpage that we created to show our beginner</p><p>skills in  creating a webpage using 
+            <strong id="col">HTML</strong> and <strong id="col">CSS.</strong></p>
+        <p id="ex">Explore, Discover, and Amaze by our webpage.</p>
+        <input id="bt" type="button" value="Register Now"><input id="bo"type="button" value="Explore Web">
         
+        <hr>
+        <div class="logs">
+        <p id="fol">Follow us on </p>
+                <a href="https://twitter.com"> <img id="ins" src="twitter.png" alt="" title="Twitter"></a> 
+                <a href="https://facebook.com"> <img id="ins" src="facebook.png" alt="" title="Facebook"></a> 
+                <a href="https://instagram.com"> <img  id="ins"src="instagram.jpg" alt="" title="Instagram"></a> 
+                <a href="https://discord.com"> <img id="ins"src="discord.png" alt="" title="Discord"></a>  
+            </div>
+        </p>
+    </div>
+    <br><br><br>
+    <footer>
+        <p>&copy; 2023 My static Website. All right reserved.</p>
+    </footer>
+
 </body>
 </html>
