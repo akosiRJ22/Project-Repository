@@ -1,0 +1,222 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>IT16 - Exercise #1</title>
+    </head>
+    <body>
+        <div>
+            <!-- <a> tag -->
+            <a href="www.google.com" target="_blank">Click Here!</a>
+            <br><br> 
+            <!---->
+
+            <!-- <img> tag -->
+            <img width="50%" height="50%" src="sample.jpg"/>
+            <!---->
+
+            <!-- <p> tag -->
+            <p>Hello World! (paragraph)</p>
+            <!---->
+
+            <!-- <h1> to <h6> tag -->
+            <h1>Hello World! (H1)</h1>
+            <h2>Hello World! (H2)</h2>
+            <h3>Hello World! (H3)</h3>
+            <h4>Hello World! (H4)</h4>
+            <h5>Hello World! (H5)</h5>
+            <h6>Hello World! (H6)</h6>
+            <!---->
+
+            <!-- <ul> and <ol> tag -->
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <ol>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+            </ol>
+            <!---->
+
+            <!-- <input>, <button>, and <form> tag -->
+            <form method="post" action="index.html">
+                <input type="text" name="firstname" required value="" placeholder="Enter Firstname" /><br>
+                <input type="password" name="password" required value="" placeholder="Enter Password" /><br>
+                <input type="number" name="number" required value="" placeholder="Enter Number" /><br>
+                <input type="email" name="email" required value="" placeholder="Enter Email Address" /><br>
+                <input type="color" value="#ff0000" /><br>
+                <input type="date" name="date" required><br>
+                <input type="datetime-local" name="datetime" required><br>
+                <input type="month" name="month" required><br>
+                <input type="week" name="week" required><br>
+                <input type="time" name="time" required><br>
+                <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678" required><br>
+                <input type="range" name="volume" min="0" max="11" /><br>
+                <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required /><br>
+                <input type="file" name="avatar" accept="image/png, image/jpeg" /><br>
+                <input type="search" name="q" /><button>Search</button><br>
+                <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"><br>
+                <input type="hidden" name="hiddenvalue" value="100" /><br><br>
+
+                <p>Please select your favorite Web language:</p>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+                <br><br>
+
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br><br>
+
+                <input type="submit" name="submitbutton" value="Submit (type submit)" /><br>
+                <input type="button" name="submitbutton" value="Submit (type button)" /><br>
+                <button>Submit (button element)</button> 
+                <input type="reset" value="Reset">
+            </form><br>
+            <!---->
+
+            <!-- <span> tag and <span> tag inside of <p> tag -->
+            <span>Hello </span><span>World (span)</span>
+            <p>Hello <span style="color:red;">World (span with inline css)</span></p>
+            <!---->
+
+            <!-- <section> tag -->    
+            <section>
+                <h2>WWF History</h2>
+                <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+            </section>
+            <!---->
+
+            <!-- <header> tag -->    
+            <header>
+                <h1>Main page heading here</h1>
+                <p>Posted by John Doe</p>
+            </header>
+            <!---->
+
+            <!-- <main> tag -->
+            <main>
+                <h1>Most Popular Browsers</h1>
+                <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+                <article>
+                    <h2>Google Chrome</h2>
+                    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+                </article>
+
+                <article>
+                    <h2>Mozilla Firefox</h2>
+                    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+                </article>
+            </main>
+            <!---->
+
+            <!-- <nav> tag -->
+            <nav>
+                <a href="/html/">HTML</a> |
+                <a href="/css/">CSS</a> |
+                <a href="/js/">JavaScript</a> |
+                <a href="/php/">PHP</a>
+            </nav>
+            <br>
+            <!---->
+
+            <!-- <video> tag -->
+            <video controls>
+                <source src="sample.mp4" type="video/mp4"/>
+                Browser do not support this format.
+            </video>
+            <!---->
+
+            <!-- <audio> tag -->
+            <audio controls>
+                <source src="sample.ogv" type="audio/ogg"/>
+                Browser do not support this format.
+            </audio>
+            <br><br>
+            <!---->
+
+            <!-- <table> tag -->
+            <table style="border-collapse: collapse;" border="1">
+                <thead>
+                    <th>Fullname</th>
+                    <th>Address</th>
+                    <th>Age</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Daryl Factor</td>
+                        <td>Dapawan</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>Juan Factor</td>
+                        <td>San Andres</td>
+                        <td>20</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!---->
+
+            <!-- <strong> -->
+            <p>This is sample paragraph do demo the <strong>strong element</strong></p>
+            <!---->
+
+            <!-- <textarea> -->
+            <textarea rows="4" cols="10" placeholder="Enter Address"></textarea>
+            <br><br>
+            <!---->
+
+            <!-- <select> inside of a form -->
+            <form method="post" action="index.html">
+                <select name="gender" required>
+                    <option value="">-Please select gender-</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <input type="submit" value="Submit"/>
+                </select>
+            </form>
+            <br><br>
+            <!---->
+
+            <!-- <label> with input box -->
+            <label for="firstnamebox">Firstname: </label>
+            <input type="text" id="firstnamebox" required value="" placeholder="Enter Firstname" />
+            <br><br>
+            <!---->
+
+            <!-- <fieldset> tag -->
+            <fieldset>
+                <legend>Login</legend>
+                <input type="text" name="firstname" required value="" placeholder="Enter Firstname" /><br>
+                <input type="password" name="password" required value="" placeholder="Enter Password" /><br>
+                <input type="number" name="number" required value="" placeholder="Enter Number" /><br>
+                <input type="submit" name="submitbutton" value="Submit" />
+            </fieldset>
+            <br><br>
+            <!---->
+
+            <!-- <iframe> tag -->
+            <iframe src="home.html" width="50%"></iframe>
+            <br><br>
+            <!---->
+
+            <!-- <footer> tag -->
+            <footer>
+                <p>Author: Jane Doe<br>
+                <a href="mailto:janedoe@example.com">janedoe@example.com</a></p>
+            </footer>
+            <!---->
+        </div>
+    </body>
+</html>
